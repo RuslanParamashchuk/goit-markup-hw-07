@@ -1,0 +1,33 @@
+.special-list {
+  display: flex;
+  justify-content: space-between;
+}
+.special-list__item {
+  width: 270px;
+}
+.special-list__title {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.special-list__text {
+  margin-top: 10px;
+  width: 270px;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+.special-list__container {
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.special-list__image {
+  width: 75px;
+  height: 75px;
+}

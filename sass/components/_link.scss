@@ -1,0 +1,23 @@
+.header-link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.link {
+  text-decoration: none;
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+}
